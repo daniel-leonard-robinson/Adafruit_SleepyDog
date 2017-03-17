@@ -6,8 +6,9 @@
 #if defined(ARDUINO_ARCH_SAMD)
 
 #include <sam.h>
-#include <Adafruit_ASFcore.h>
-#include <power.h>
+//#include "Adafruit_ASFcore.h"
+//#include <power.h>
+#include "../../Adafruit_ASFcore_C/power.h"
 #include "WatchdogSAMD.h"
 
 int WatchdogSAMD::enable(int maxPeriodMS, bool isForSleep) {
