@@ -8,7 +8,7 @@
 #include <sam.h>
 //#include "Adafruit_ASFcore.h"
 //#include <power.h>
-#include "../../Adafruit_ASFcore_C/power.h"
+#include "../../Adafruit_ASFcore/power.h"
 #include "WatchdogSAMD.h"
 
 int WatchdogSAMD::enable(int maxPeriodMS, bool isForSleep) {
