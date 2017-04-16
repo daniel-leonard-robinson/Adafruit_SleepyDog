@@ -28,7 +28,7 @@ int WatchdogSAMD::enable(int maxPeriodMS, bool isForSleep) {
 
     // You'll see some occasional conversion here compensating between
     // milliseconds (1000 Hz) and WDT clock cycles (~1024 Hz).  The low-
-    // power oscillator used by the WDT ostensibly runs at 32,768 Hz with
+    // power oscillator used by the WDT ostensibly runs at 32.768 kHz with
     // a 1:32 prescale, thus 1024 Hz, though probably not super precise.
 
     if((maxPeriodMS >= 16000) || !maxPeriodMS) {
